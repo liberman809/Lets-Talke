@@ -1,0 +1,50 @@
+
+.newGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newGroupForm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.addUser{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 90%; */
+}
+
+.userFdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.participantsList{
+    border-top: 1px solid;
+    margin-top: 10px;
+    width: 90%;
+}
+
+.participant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

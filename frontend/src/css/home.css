@@ -1,0 +1,49 @@
+.home{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.homTitle{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homTitle h1{
+    position: relative;
+    top: -150px;
+    font-size: 45px;
+}
+
+.homeForm{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeForm form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: aquamarine;
+    height: 250px;
+    width: 300px;
+}
+
+.homeForm form input{
+    width: 70%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.toSignUp{
+    cursor: pointer;
+    font-size: 25px;
+}

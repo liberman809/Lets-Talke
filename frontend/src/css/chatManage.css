@@ -1,0 +1,73 @@
+.chatManage{
+    position: relative;
+    width: 100%;
+    height: 87%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.participantsList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.participant{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    border-bottom: 1px solid;
+    width: auto;
+    min-width: 60%;
+    max-width: 80%;
+    background-color: antiquewhite;
+    background-color: rgb(241, 241, 241);
+    background-color: #005C4B;
+    padding: 0px 10px;
+}
+
+
+.participantDetails{
+    height: 100%;
+    min-width: 25%;
+    max-width: 40%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* padding: 0px 0px 0px 10px; */
+    margin: 0px 20px 0px 0px;
+    overflow: hidden;
+}
+
+.participantActions{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.actionButton{
+    margin: 0px 8px 0px 8px;
+    cursor: pointer;
+    padding: 6px 9px 6px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+}
+
+.chatUserMod{
+    height: 87%;
+    width: 50%;
+    margin: auto;
+}
+
+.groupActions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}

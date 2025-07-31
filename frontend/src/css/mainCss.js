@@ -1,0 +1,7 @@
+import './index.css'
+import './home.css'
+import './chats.css'
+import './chat.css'
+import './newChat.css'
+import './chatHeader.css'
+import './chatManage.css'
