@@ -1,0 +1,19 @@
+# ========== כללי ==========
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+*.log
+
+# ========== frontend ==========
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# ========== backend ==========
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/*.log
